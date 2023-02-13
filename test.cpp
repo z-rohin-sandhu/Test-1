@@ -1,9 +1,7 @@
 #include<iostream>
 #include<string>
-
 using namespace std;
 
-// Function to Sum integers Present in String
 int Test(string s)
 {
     int sum=0;
@@ -24,8 +22,6 @@ int main()
     string s;
     cin>>s;
 
-    //Function Call
-    
     cout<<Test(s)<<endl;
     return 0;
 }
